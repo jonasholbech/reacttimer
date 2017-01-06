@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.spin {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+}
+
+.taskbar {
+  background-color: #808080;
+}
